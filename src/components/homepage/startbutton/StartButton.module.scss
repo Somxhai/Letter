@@ -1,0 +1,20 @@
+@use "/src/components/utils/_colors.scss" as color;
+@use '/src/components/utils/breakpoint' as bp;
+
+.button {
+    border-radius: 2.5em;
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    height: 4.5vh;
+    width: 100%;
+    margin: 3vw auto;
+    font-size: 0.8rem;
+    text-decoration: none;
+    min-width: 21vw;
+    border: none;
+    background-color: color.$button_primary;
+    color: white;
+}
+.button:hover {
+    background-color: #81db95;
+}

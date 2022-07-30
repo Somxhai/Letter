@@ -1,0 +1,19 @@
+@use "../utils/_fonts.scss";
+@use "../utils/_colors.scss" as color;
+@use '../utils/breakpoint' as bp;
+.Header {
+    font-size: 1rem;
+    font-family: 'Sora', sans-serif;
+    text-align: center;
+    p {
+        font-size: 0.8rem;
+    }
+}
+.Span {
+    color: color.$primary
+}
+
+.container {
+    justify-items: center;
+}
+

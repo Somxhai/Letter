@@ -1,0 +1,13 @@
+@use "../utils/_fonts.scss";
+.title {
+  justify-content: center;
+  display: flex;
+  margin: 3vh auto;
+  font-size: 1.5rem;
+  color: #fb6376;
+  font-family: "Sora", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+
+}
+
